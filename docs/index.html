@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>处理表格</title>
+
+    <script type="text/javascript" src="./ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="./ueditor/ueditor.all.min.js"></script>
+
+</head>
+<body>
+
+<div id="btns">
+    <div>
+        <button onclick="HE.insertHtml()">插入测试数据</button>
+        <button onclick="HE.getDataArray()">TEST getDataArray</button>
+        <button onclick="HE.getDataMap()">TEST getDataMap</button>
+    </div>
+</div>
+<hr>
+
+<div>
+    <script id="editor" type="text/plain" style="width:1024px;height:400px;"></script>
+</div>
+<hr>
+
+<textarea name="result" id="result" cols="140" rows="10"></textarea>
+
+
+<script type="text/javascript" src="./js/lib/jquery.min.js?_v=151109161058"></script>
+<script type="text/javascript" src="./js/lib/supertable.js?_v=151109161058"></script>
+<script type="text/javascript" src="./js/global.js?_v=151109161058"></script>
+
+</body>
+</html>
